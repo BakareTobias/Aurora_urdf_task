@@ -15,9 +15,8 @@ The goal of this project is to:
 
 #### 1. autonomous_nav/autonomous_nav_urdf
 
-      -URDF-based robot model
-      -Modular design for future expansion (sensors, wheels, links)
-      -gazebo plugins for control using keyboard teleop
+      -URDF-based robot model folder: includes plugins for interfacing with gazebo
+      -rviz template world
       -launch file for visualizing in Rviz
 
 #### 2. autonomous_nav_bringup
