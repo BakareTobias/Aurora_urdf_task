@@ -13,7 +13,7 @@ find_package(ament_cmake REQUIRED)
 
 #install the urdf 
 install(
-  DIRECTORY config launch worlds heightmaps  # assuming urdf files are in the urdf directory
+  DIRECTORY config launch worlds heightmaps meshes  # assuming urdf files are in the urdf directory
   DESTINATION share/${PROJECT_NAME} # install to share/my_robot_description
 )
 
